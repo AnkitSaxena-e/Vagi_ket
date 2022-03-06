@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/dp_10"
+    android:background="@drawable/address_show_background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ee">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:id="@+id/noImage"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NotiNotiNotiNotiNotiNotiNotiNotiNotiNotiNotiNotiNotiNotiNotiNoti"
+            android:textSize="16dp"
+            android:id="@+id/noText"
+            android:layout_below="@+id/noImage"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/deleNoti"
+        android:text="Delete"
+        android:background="@drawable/joinbutton"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_margin="@dimen/dp_30"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/ee"/>
+
+</RelativeLayout>
