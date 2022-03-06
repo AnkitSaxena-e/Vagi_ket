@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card_background"
+    android:elevation="5dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:id="@+id/Lolpa">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:textSize="16dp"
+            android:text="Pay With Coins"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/Close_Dialog"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_baseline_close_24"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Lolpa"
+        android:padding="@dimen/dp_10"
+        android:id="@+id/Ra">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Amount : "
+            android:layout_alignParentLeft="true"
+            android:id="@+id/ta"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/b_o"
+            android:id="@+id/ll"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tcoins"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="370"
+            android:layout_alignParentRight="true"
+            android:id="@+id/tcoins"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:layout_below="@+id/Ra"
+        android:id="@+id/Rb">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your Coins : "
+            android:layout_alignParentLeft="true"
+            android:id="@+id/yc"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/b_o"
+            android:id="@+id/lla"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/ycoins"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="370"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ycoins"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*note - *"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/Rb"
+        android:id="@+id/notepay"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ROPlaceOrderWCoinsD"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/gold"
+        android:layout_below="@+id/notepay"
+        android:paddingLeft="@dimen/dp_30"
+        android:paddingRight="@dimen/dp_30"
+        android:layout_centerHorizontal="true"
+        android:textSize="14dp"
+        android:layout_marginBottom="@dimen/dp_10"
+        android:layout_marginTop="10dp"
+        android:text="Pay With Coins"/>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".JoinActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/main_background">
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Join Us"
+        android:textColor="@color/darkgray"
+        android:textSize="25dp"
+        android:layout_alignTop="@+id/lolololo"
+        android:textStyle="bold"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-60dp"/>
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/lolololo"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true">
+
+        <Spinner
+            android:layout_height="40dp"
+            android:layout_width="85dp"
+            android:layout_below="@+id/Name_Join"
+            android:layout_marginTop="-11.5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/lineline"
+            android:id="@+id/spinnerCountries"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/Name_Join"
+            android:layout_alignParentTop="true"
+            app:met_baseColor="@color/gray"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@color/main_o"
+            android:textSize="15sp"
+            android:hint="Name"
+            android:layout_marginRight="10dp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="238dp"
+            android:background="@drawable/lineline"
+            android:id="@+id/Number_Join"
+            android:hint="Phone"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:layout_below="@+id/Name_Join"
+            android:layout_marginTop="-21dp"
+            android:inputType="number"
+            app:met_baseColor="@color/gray"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@color/main_o"
+            android:layout_alignParentRight="true"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@id/Number_Join"
+            android:layout_marginTop="-22dp"
+            android:layout_marginLeft="10dp"
+            android:textSize="15sp"
+            android:background="@drawable/lineline"
+            android:id="@+id/Passward_Join"
+            app:met_baseColor="@color/gray"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@color/main_o"
+            android:hint="Passward"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"/>
+
+        <ImageButton
+            android:layout_height="30dp"
+            android:layout_width="40dp"
+            android:layout_below="@+id/Number_Join"
+            android:layout_marginTop="-9dp"
+            android:background="@drawable/ic_visibility_off"
+            android:id="@+id/Show_Join"
+            android:layout_marginRight="20dp"
+            android:textSize="15sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignRight="@+id/Passward_Login"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_below="@+id/Passward_Join"
+            android:layout_marginTop="-22dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/lineline"
+            android:id="@+id/Passward_Conferm_Join"
+            app:met_baseColor="@color/gray"
+            app:met_floatingLabel="highlight"
+            app:met_singleLineEllipsis="true"
+            app:met_primaryColor="@color/main_o"
+            android:hint="Conferm Passward"
+            android:textSize="15sp"
+            android:layout_marginRight="10dp"
+            android:padding="10dp"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:background="@drawable/joinbutton"
+            android:id="@+id/Join_button"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginStart="6dp"
+            android:layout_alignParentRight="true"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/Passward_Conferm_Join"
+            android:text="Join Now"
+            android:textStyle="normal|bold|italic"
+            android:textSize="15sp"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

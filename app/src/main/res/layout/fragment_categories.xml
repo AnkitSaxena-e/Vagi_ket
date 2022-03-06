@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.CategoriesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:columnCount="2">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:id="@+id/Admin_Venflon_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dff"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fruits &amp; Vegetable"
+                    android:layout_below="@+id/dff"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Iv_Set_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffr"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Herbs &amp; Seasonings"
+                    android:layout_below="@+id/dffr"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Foley_Catheter_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffra"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh Fruits"
+                    android:layout_below="@+id/dffra"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Oxygen_Mask_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffraec"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Cuts &amp; Sprout"
+                    android:layout_below="@+id/dffraec"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Cotton_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffraev"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Flower Bouquests &amp; Bunches"
+                    android:layout_below="@+id/dffraev"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Ryles_Tube_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffrae"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exotic Fruits &amp; Vegetables"
+                    android:layout_below="@+id/dffrae"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Uro_Bag_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffraefr"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Organic Fruits &amp; Vegetables"
+                    android:layout_below="@+id/dffraefr"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Feeding_Tube_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffraef"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Fresh Vegetables"
+                    android:layout_below="@+id/dffraef"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:background="@drawable/cat_back"
+                android:layout_margin="8dp"
+                android:padding="5dp"
+                android:id="@+id/Admin_Other_AAAA">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:id="@+id/dffraeve"
+                    android:src="@drawable/ic_baseline_phone_android_24"/>
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="wrap_content"
+                    android:text="Other"
+                    android:layout_below="@+id/dffraeve"
+                    android:layout_margin="@dimen/dp_10"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="@dimen/dp_10"/>
+
+            </RelativeLayout>
+
+        </GridLayout>
+
+    </RelativeLayout>
+
+</ScrollView>
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Fruits &amp; Vegetable"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:id="@+id/Admin_Venflon_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Herbs &amp; Seasonings"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:id="@+id/Admin_Iv_Set_AAAA"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:layout_below="@+id/Admin_Venflon_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Fresh Fruits"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:layout_below="@+id/Admin_Iv_Set_AAAA"-->
+    <!--            android:id="@+id/Admin_Foley_Catheter_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Exotic Fruits &amp; Vegetables"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:layout_below="@+id/Admin_Foley_Catheter_AAAA"-->
+    <!--            android:id="@+id/Admin_Oxygen_Mask_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Organic Fruits &amp; Vegetables"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:id="@+id/Admin_Cotton_AAAA"-->
+    <!--            android:layout_below="@+id/Admin_Oxygen_Mask_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Cuts &amp; Sprouts"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:layout_below="@+id/Admin_Cotton_AAAA"-->
+    <!--            android:id="@+id/Admin_Ryles_Tube_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Flower Bouquests &amp; Bunches"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:id="@+id/Admin_Uro_Bag_AAAA"-->
+    <!--            android:layout_below="@+id/Admin_Ryles_Tube_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Fresh Vegetables"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:layout_below="@+id/Admin_Uro_Bag_AAAA"-->
+    <!--            android:id="@+id/Admin_Feeding_Tube_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
+
+    <!--        <Button-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:text="Other"-->
+    <!--            android:padding="10dp"-->
+    <!--            android:gravity="center"-->
+    <!--            android:layout_below="@+id/Admin_Feeding_Tube_AAAA"-->
+    <!--            android:layout_marginTop="@dimen/dp_10"-->
+    <!--            android:textSize="18dp"-->
+    <!--            android:id="@+id/Admin_Other_AAAA"-->
+    <!--            android:background="@drawable/loginbutton"-->
+    <!--            android:textStyle="bold|italic"-->
+    <!--            android:layout_centerHorizontal="true"/>-->
