@@ -66,7 +66,7 @@ public class AdminUserInfoDetailActivity extends AppCompatActivity {
     private JsonObjectRequest jsonObjectRequest;
 
     final private String FCM_API = "https://fcm.googleapis.com/fcm/send";
-    final private String serverKey = "key=" + "AAAAYHeVQtI:APA91bFwMJ88aIQJW5SF-zU7s_6_WQFinREWW4c4YeH5cL1-mft1WA1t8PYag0sqPb68BkK39b8qeDGNYBEJnc6TJ4DB86pjetCF7Zmiv21Le8dBoZ1sntJ3r_A5BjBWIpa12JI6Vjip";
+    final private String serverKey = "key=" + "Your Firebase Server Key";
 
     final private String contentType = "application/json";
     final String TAG = "NOTIFICATION TAG";
